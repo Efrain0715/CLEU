@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Selecciona el Personaje Asesinado</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Selecciona el Personaje Asesinado</h1>
+    <div class="characters-container">
+        {% for personaje in personajes %}
+            <div class="character-card" onclick="seleccionarPersonaje('{{ personaje }}')">
+                <img src="{{ url_for('static', filename='images/' + personaje + '.jpeg') }}" alt="{{ personaje }}">
+                <p>{{ personaje }}</p>
+            </div>
+        {% endfor %}
+    </div>
+
+    <form id="personajeForm" action="{{ url_for('nueva_partida') }}" method="post" style="display:none;">
+        <input type="hidden" name="personaje" id="personajeInput">
+    </form>
+
+    <script>
+        function seleccionarPersonaje(personaje) {
+            document.getElementById('personajeInput').value = personaje;
+            document.getElementById('personajeForm').submit();
+        }
+    </script>
+</body>
+</html>

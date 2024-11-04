@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ resultado }}</h1>
+        <p>El asesino era: {{ asesino }}</p>
+
+        {% if resultado != "¡Correcto! Has descubierto al asesino." %}
+            <a href="{{ url_for('adivinar') }}">Intentar de nuevo</a>
+        {% else %}
+            <a href="{{ url_for('nueva_partida') }}">Jugar otra vez</a>
+        {% endif %}
+    </div>
+</body>
+</html>

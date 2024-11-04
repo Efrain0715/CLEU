@@ -1,0 +1,44 @@
+{
+  "characters": [
+    {
+      "name": "Bugs Bunny",
+      "evidence": ["restos de zanahoria cerca de la escena", "huellas pequeñas no identificadas", "fragmento de tela marrón"]
+    },
+    {
+      "name": "Daffy Duck",
+      "evidence": ["pluma oscura en el suelo", "marca en el vidrio similar a un pico", "residuos de pólvora en la escena"]
+    },
+    {
+      "name": "Elmer Fudd",
+      "evidence": ["fragmento de gorra", "huellas de botas grandes", "cinta adhesiva con rastros de pólvora"]
+    },
+    {
+      "name": "Porky Pig",
+      "evidence": ["manchas de barro en el suelo", "vaso desechado a medio consumir", "papel de nota arrugado"]
+    },
+    {
+      "name": "Sylvester",
+      "evidence": ["pequeñas marcas en el suelo", "pelo blanco y negro en la escena", "cordón roto en el suelo"]
+    },
+    {
+      "name": "Tweety",
+      "evidence": ["pluma clara en la escena", "pequeñas huellas cerca de una ventana", "puerta de jaula abierta"]
+    },
+    {
+      "name": "Marvin el Marciano",
+      "evidence": ["residuos oscuros", "objeto metálico no identificado", "pedazo de casco quebrado"]
+    },
+    {
+      "name": "Coyote",
+      "evidence": ["marcas de grandes patas", "restos de un paquete roto", "trazos de lápiz en el suelo"]
+    },
+    {
+      "name": "Road Runner",
+      "evidence": ["pluma azulada en la escena", "huellas largas", "fragmento de carretera dañada"]
+    },
+    {
+      "name": "Yosemite Sam",
+      "evidence": ["sombra de un sombrero grande", "residuos de explosión", "marcas profundas de botas"]
+    }
+  ]
+}

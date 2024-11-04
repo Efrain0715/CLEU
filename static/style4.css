@@ -1,0 +1,139 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+h1 {
+    color: #4a90e2;
+    margin-top: 20px;
+}
+
+/* Estilo para el index.html */
+.index-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.index-container a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4a90e2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.index-container a:hover {
+    background-color: #357abd;
+}
+
+/* Estilo para seleccionar_personaje.html */
+.characters-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.character-card {
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.character-card img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.character-card p {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.character-card:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo para adivinar.html */
+.adivinar-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.adivinar-container h2 {
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+.adivinar-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.adivinar-container li {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.adivinar-container form {
+    margin-top: 20px;
+}
+
+.adivinar-container select, .adivinar-container button {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.adivinar-container button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.adivinar-container button:hover {
+    background-color: #357abd;
+}
+
+/* Estilo para resultado.html */
+.resultado-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.resultado-container p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.resultado-container a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.resultado-container a:hover {
+    background-color: #357abd;
+}
